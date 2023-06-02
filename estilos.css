@@ -66,11 +66,9 @@ input{
         font-size: 12px;
     }
     .keyboard {
-        margin-top: 200px;
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 730px;
-        margin: 0 auto;
+        min-width: 385px;
+        max-width: 385px;
+        width: 385px;
         padding-left: 22px;
         padding: 10px;
         border: 1px solid #ccc;
@@ -78,13 +76,10 @@ input{
         background: linear-gradient(rgb(69, 69, 71), rgb(7, 7, 7)) ;
     }
     .key, .atras, .space-bar {
-        width: 23px;
-        height: 23px;
+        width: 32px;
+        height: 32px;
         margin: 2px;
         border: 1px solid #ccc;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         cursor: pointer;
         border-radius: 5px;
         transition: all .2s ease;
@@ -92,7 +87,8 @@ input{
         color: white;
     }
     input{
-        width: 100%;
+        width: 357px;
+        margin: 3px 3px 15px 3px;
         height: 25px;
         padding: 10px;
         outline: none;
@@ -102,6 +98,8 @@ input{
         color: white;
     }
     .space-bar{
-        width: 100%;
+        margin-top: 5px;
+        width: 357px;
+        height: 25px;
     }
 }
