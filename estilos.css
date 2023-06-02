@@ -65,7 +65,9 @@ input{
     *{
         font-size: 12px;
     }
-
+    h1{
+        font-size: 24px;
+    }
     .keyboard {
         min-width: 385px;
         max-width: 385px;
